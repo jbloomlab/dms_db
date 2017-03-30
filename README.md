@@ -19,7 +19,7 @@ Each directory will have a `README` with the following information:
 
 There will also be a table.css file for the `HTML` mark-up of the `README` file.
 
-####`Citation.txt`
+#### `Citation.txt`
 `BibTeX` citation
 
 #### Preferences
@@ -27,7 +27,3 @@ Each deep mutational dataset will be transformed into amino-acid preferences.
 
 #### Alignments
 The directory will also contain large alignments which can be sampled for `phydms` analysis.
-
-## Other Files
-`Unprocessed.md`: Deep Mutational Datasets to add to repository.   
-`Incomplete.md`: Dataset has been added to repository but one or more of the components listed above is missing.
