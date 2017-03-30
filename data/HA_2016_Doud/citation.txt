@@ -1,0 +1,10 @@
+@article{doud2016accurate,
+  title={Accurate measurement of the effects of all amino-acid mutations on influenza hemagglutinin},
+  author={Doud, Michael B and Bloom, Jesse D},
+  journal={Viruses},
+  volume={8},
+  number={6},
+  pages={155},
+  year={2016},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}

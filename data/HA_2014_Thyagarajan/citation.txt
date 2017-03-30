@@ -1,0 +1,9 @@
+@article{thyagarajan2014inherent,
+  title={The inherent mutational tolerance and antigenic evolvability of influenza hemagglutinin},
+  author={Thyagarajan, Bargavi and Bloom, Jesse D},
+  journal={Elife},
+  volume={3},
+  pages={e03300},
+  year={2014},
+  publisher={eLife Sciences Publications Limited}
+}
