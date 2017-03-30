@@ -1,4 +1,4 @@
-Here is a list of DMS to add to the repository:  
+Here is a list of DMS studies to add to the repository:  
 
 [mclaughlin2012spatial](http://www.nature.com/nature/journal/v491/n7422/pdf/nature11500.pdf)   
 *The spatial architecture of protein function and

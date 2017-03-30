@@ -1,25 +1,33 @@
 # dms_db
 
-Curated collection of Deep Mutational Scanning datasets to facilitate easy `phydms` analysis.   
+Curated collection of Deep Mutational Scanning datasets for `phydms` analysis.   
 
 ## Data
 #### Naming
 The directories have the following naming scheme:   
-`PROTEIN_FIRSTAUTHOR_YEAR`
+`PROTEIN_YEAR_FIRSTAUTHOR`
 
-####Contents
+#### Contents
 ##### README
-Each directory will have a read me with the following information:   
-• Source (easily parsed for bibliographies)  
-• Original file name  
-• Protein name  
-• Any notes
-####Preferences
+Each directory will have a `README` with the following information:   
+• Source (Title of paper)   
+• Original datafile name from paper    
+• Protein name   
+• ID or directory name  
+• Source ID or BibTex ID   
+• Any notes  
+
+There will also be a table.css file for the `HTML` mark-up of the `README` file.
+
+####`Citation.txt`
+`BibTeX` citation
+
+#### Preferences
 Each deep mutational dataset will be transformed into amino-acid preferences.  
 
-####Alignments
+#### Alignments
 The directory will also contain large alignments which can be sampled for `phydms` analysis.
 
 ## Other Files
 `Unprocessed.md`: Deep Mutational Datasets to add to repository.   
-`Incomplete.md`: Dataset has been added to repository but one or more of the components listed above is missing. 
+`Incomplete.md`: Dataset has been added to repository but one or more of the components listed above is missing.

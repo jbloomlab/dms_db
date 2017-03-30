@@ -16,7 +16,7 @@ def main():
         assert os.path.isfile(fname),\
                 "README.md does not exist in {0}".format(dir)
         subprocess.check_output(['pandoc', '--css' ,'table.css', '-s', fname, '-o', outputName])
-        print(" ".join(['pandoc', '--css' ,'css/table.css', '-s', fname, '-o', outputName]))
+        print(" ".join(['pandoc', '--css' ,'table.css', '-s', fname, '-o', outputName]))
     print("done.")
 
 
