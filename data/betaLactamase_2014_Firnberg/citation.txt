@@ -1,0 +1,10 @@
+@article{firnberg2014comprehensive,
+  title={A comprehensive, high-resolution map of a gene’s fitness landscape},
+  author={Firnberg, Elad and Labonte, Jason W and Gray, Jeffrey J and Ostermeier, Marc},
+  journal={Molecular biology and evolution},
+  volume={31},
+  number={6},
+  pages={1581--1592},
+  year={2014},
+  publisher={SMBE}
+}

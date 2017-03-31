@@ -1,3 +1,5 @@
 `ID`,`PROTEIN`,`SOURCE_ID`,`N_RESIDUES`
+betaLactamase_2014_Firnberg,beta-lactamase,firnberg2014comprehensive,263
+betaLactamase_2015_Stiffler,beta-lactamase,stiffler2015evolvability,263
 HA_2014_Thyagarajan,HA,thyagarajan2014inherent,564
 HA_Doud_2016,HA,doud2016accurate,564

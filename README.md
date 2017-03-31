@@ -10,12 +10,11 @@ The directories have the following naming scheme:
 #### Contents
 ##### README
 Each directory will have a `README` with the following information:   
-• Source (Title of paper)   
-• Original datafile name from paper    
-• Protein name   
-• ID or directory name  
-• Source ID or BibTex ID   
-• Any notes  
+• Database ID (name of directory)  
+• Protein   
+• Source ID (`BibTeX` id from `references.bib`)   
+• Number of residues in the preferences   
+• Notes (ie, numbering scheme, concentration if multiple experiments)  
 
 There will also be a table.css file for the `HTML` mark-up of the `README` file.
 
