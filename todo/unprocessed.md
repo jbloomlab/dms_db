@@ -62,3 +62,10 @@ anti-VEGF antibody G6.31
 [tripathi201molecular](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mbe/33/11/10.1093_molbev_msw182/2/msw182.pdf?Expires=1491347672&Signature=XJwz9Ho1R8-ssIBXp4kgfaU1AwlgiNu7nuYmriEGmIkS2YRgbfcyOBMe0NkbyvZ-TP8p24xgzCX6k9RbtSO0DQLjEsi17IGOqvBgifBTbcc6ubrByOf4DmP-mjfQhfjAB183ahU0oNM3Q-6nP7qjQeaZOMTi8w2yDwA1ySLYbuEdJBVunOY7-F3Jg6tccayYvePtHK3H-LB5YYa1ZmG3nTnNwtdyxZGIpB9256tiqXvfOvzNXvm~JMBfkOw8nJiMWfd6v7f6qysLSMSP4bZ2nfiimUaGmBbNZCCk0danQbpuHEe6NRLYZxytE3ltUWajOTuOKBLf5xa36xpCGuXnqg__&Key-Pair-Id=APKAIUCZBIA4LVPAVW3Q)    
 *Molecular Determinants of Mutant Phenotypes, Inferred from Saturation Mutagenesis Data*  
 CcdB  
+
+[kowalsky2016determination](http://onlinelibrary.wiley.com.offcampus.lib.washington.edu/store/10.1002/prot.25175/asset/prot25175.pdf;jsessionid=115A7C62D6F5E84C80D8310770D63E8B.f03t01?v=1&t=j18fbo4l&s=50a94a32127bd7ed2951cdceba4b75502a7a604a)  
+*Determination of binding affinity upon
+mutation for type I dockerin–cohesin
+complexes from Clostridium thermocellum and
+Clostridium cellulolyticum using deep sequencing*  
+type I cohesin
