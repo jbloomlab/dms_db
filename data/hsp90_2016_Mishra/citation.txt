@@ -1,0 +1,10 @@
+@article{mishra2016systematic,
+  title={Systematic mutant analyses elucidate general and client-specific aspects of Hsp90 function},
+  author={Mishra, Parul and Flynn, Julia M and Starr, Tyler N and Bolon, Daniel NA},
+  journal={Cell reports},
+  volume={15},
+  number={3},
+  pages={588--598},
+  year={2016},
+  publisher={Elsevier}
+}
