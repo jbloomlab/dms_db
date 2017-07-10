@@ -18,6 +18,9 @@ anti-VEGF antibody G6.31
 *Single-mutation fitness landscapes for an enzyme on multiple substrates reveal specificity is globally encoded*  
 amiE
 
+[bandaru2017deconstruction](https://elifesciences.org/articles/27810)  
+*Deconstruction of the Ras switching cycle through saturation mutagenesis*  
+ras
 
 ## Easy to find alignments
 
