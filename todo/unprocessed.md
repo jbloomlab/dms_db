@@ -25,17 +25,10 @@ ras
 ## Easy to find alignments
 
 ## Easy to get preferences
-[kitzman2015massively](http://www.nature.com/nmeth/journal/v12/n3/pdf/nmeth.3223.pdf)  
-*Massively parallel single-amino-acid mutagenesis*  
-Gal4, p53
 
 [olson2014comprehensive](http://ac.els-cdn.com/S0960982214012688/1-s2.0-S0960982214012688-main.pdf?_tid=efadb44e-14bc-11e7-8c18-00000aacb35d&acdnat=1490818916_3fa220dec513e9c0711b9f718bd0ed0f)  
 *A comprehensive biophysical description of pairwise epistasis throughout an entire protein domain*  
 GB1  
-
-[brenan2016phenotypic](http://ac.els-cdn.com/S2211124716313171/1-s2.0-S2211124716313171-main.pdf?_tid=63164508-14be-11e7-906d-00000aab0f6b&acdnat=1490819540_78812c05444e95cbd7db52bfb4b6fdac)    
-*Phenotypic characterization of a comprehensive set of MAPK1/ERK2 missense mutants*  
-MAPK1/ERK2
 
 [tripathi201molecular](https://academic.oup.com/mbe/article/33/11/2960/2272479/Molecular-Determinants-of-Mutant-Phenotypes#45198683)    
 *Molecular Determinants of Mutant Phenotypes, Inferred from Saturation Mutagenesis Data*  
@@ -52,6 +45,16 @@ env
 *Site-specific amino acid preferences are mostly conserved in two closely related protein homologs*  
 NP
 
+[brenan2016phenotypic](http://ac.els-cdn.com/S2211124716313171/1-s2.0-S2211124716313171-main.pdf?_tid=63164508-14be-11e7-906d-00000aab0f6b&acdnat=1490819540_78812c05444e95cbd7db52bfb4b6fdac)    
+*Phenotypic characterization of a comprehensive set of MAPK1/ERK2 missense mutants*  
+MAPK1/ERK2  
+[orth](http://uswest.ensembl.org/Homo_sapiens/Gene/Compara_Ortholog?db=core;g=ENSG00000100030;r=22:21754500-21867680)
+
+[kitzman2015massively](http://www.nature.com/nmeth/journal/v12/n3/pdf/nmeth.3223.pdf)  
+*Massively parallel single-amino-acid mutagenesis*  
+Gal4  
+*sequences from bloom2017identification*
+
 ## Raw data hard to find  
 [mclaughlin2012spatial](http://www.nature.com/nature/journal/v491/n7422/abs/nature11500.html)   
 *The spatial architecture of protein function and
@@ -67,7 +70,8 @@ supp page wasn't loading
 [majithia2016prospective](http://www.nature.com/ng/journal/v48/n12/abs/ng.3700.html)    
 *Prospective functional classification of all possible missense variants in PPARG*  
 PPARG  
-hard to find the raw data
+hard to find the raw data  
+[orth](http://uswest.ensembl.org/Homo_sapiens/Gene/Compara_Ortholog?db=core;g=ENSG00000132170;r=3:12287368-12434356)
 
 [klesmith2017tradeoffs](http://www.pnas.org/content/114/9/2265.full.pdf)  
 *Trade-offs between enzyme fitness and solubility illuminated by deep mutational scanning*  

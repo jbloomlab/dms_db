@@ -17,3 +17,5 @@ type I cohesin
 *Systematic mutant analyses elucidate general and client-specific aspects of Hsp90 function*  
 Hsp90  
 - preferences unprocessed
+- [alignment](http://uswest.ensembl.org/Homo_sapiens/Gene/Compara_Alignments?db=core;g=ENSG00000224411;r=11:27888838-27891033;t=ENST00000530115)
+- [yeast orth](http://fungi.ensembl.org/Schizosaccharomyces_pombe/Gene/Compara_Ortholog?db=core;g=SPAC926.04c;r=I:3888558-3891157;t=SPAC926.04c.1)
