@@ -1,0 +1,85 @@
+2017-08-16 12:54:23,011 - INFO - Beginning execution of phydms in directory /Users/sarah/Google Drive/GS/lab/dms_db/data/hsp90_2016_Mishra
+
+2017-08-16 12:54:23,012 - INFO - Progress is being logged to phydms/randomized_ExpCM_prefs_log.log
+
+2017-08-16 12:54:23,012 - INFO - Version information:
+	Time and date: Wed Aug 16 12:54:20 2017
+	Platform: Darwin-15.6.0-x86_64-i386-64bit
+	Python version: 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016, 10:47:25)  [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)]
+	phydms version: 2.0.dev6
+	Bio version: 1.68
+	cython version: 0.25.1
+	numpy version: 1.12.1
+	scipy version: 0.19.0
+	matplotlib version: 2.0.2
+	natsort version: 5.0.1
+	sympy version: 1.0
+	six version: 1.10.0
+	pandas version: 0.20.3
+	pyvolve version: 0.8.4
+	statsmodels version: 0.8.0
+	weblogolib version: 3.5.0
+	PyPDF2 version: 1.26.0
+
+2017-08-16 12:54:23,012 - INFO - Parsed the following arguments:
+	model = ('ExpCM', 'prefs.csv')
+	diffprefsbysite = False
+	minpref = 0.002
+	seed = 1
+	nograd = False
+	gammaomega = False
+	profile = False
+	opt_details = False
+	alignment = hsp90_alignment5_ref_prep.fasta
+	randprefs = True
+	brlen = optimize
+	avgprefs = False
+	ncats = 4
+	initparams = None
+	fitphi = False
+	tree = phydms/RAxML_tree.newick
+	divpressure = None
+	omegabysite = False
+	outprefix = phydms/randomized_ExpCM_prefs
+	ncpus = 1
+	omegabysite_fixsyn = False
+	fitprefsmethod = 2
+	diffprefsprior = ('invquadratic', 150.0, 0.5)
+	minbrlen = 1e-06
+
+2017-08-16 12:54:23,013 - INFO - Random number seed: 1
+
+2017-08-16 12:54:23,013 - INFO - Reading alignment from hsp90_alignment5_ref_prep.fasta
+2017-08-16 12:54:23,282 - INFO - Read 33 aligned sequences from hsp90_alignment5_ref_prep.fasta, each consisting of 229 codons.
+
+2017-08-16 12:54:23,283 - INFO - The model will be an ExpCM informed by site-specific amino-acid preferences in prefs.csv
+2017-08-16 12:54:23,283 - INFO - Preferences will be randomized across sites.
+2017-08-16 12:54:24,739 - INFO - Successfully read site-specific amino-acid preferences for all 229 sites.
+
+2017-08-16 12:54:24,740 - INFO - Nucleotide frequency parameters phi will be set so stationary state matches alignment nucleotide frequencies of A = 0.280, C = 0.232, G = 0.261, T = 0.228
+
+2017-08-16 12:54:26,043 - INFO - Reading tree from phydms/RAxML_tree.newick
+2017-08-16 12:54:26,076 - INFO - Tree has 33 tips.
+2017-08-16 12:54:26,091 - INFO - Adjusted 1 branch lengths up to minbrlen 1e-06
+
+2017-08-16 12:54:26,091 - INFO - Initializing TreeLikelihood..
+2017-08-16 12:54:42,603 - INFO - TreeLikelihood initialized.
+2017-08-16 12:54:42,608 - INFO - Maximizing log likelihood (initially -10471.78).
+2017-08-16 12:54:42,608 - INFO - Branch lengths will be optimized individually.
+2017-08-16 13:11:02,527 - INFO - Maximization complete:
+	Step 1: optimized parameters, loglik went from -10471.78 to -9136.31 (28 iterations, 39 function evals)
+	Step 2: optimized branches, loglik went from -9136.31 to -9133.64 (44 iterations, 48 function evals)
+	Step 3: optimized parameters, loglik went from -9133.64 to -9133.64 (2 iterations, 5 function evals)
+2017-08-16 13:11:02,560 - INFO - Optimized log likelihood is -9133.64.
+2017-08-16 13:11:02,560 - INFO - Writing log likelihood to phydms/randomized_ExpCM_prefs_loglikelihood.txt
+2017-08-16 13:11:02,604 - INFO - Model parameters after optimization:
+	beta = 0.312558
+	kappa = 2.2681
+	omega = 0.0709507
+	phiA = 0.289453
+	phiC = 0.220099
+	phiG = 0.258183
+2017-08-16 13:11:02,605 - INFO - Writing model parameters to phydms/randomized_ExpCM_prefs_modelparams.txt
+2017-08-16 13:11:02,605 - INFO - Writing the optimized tree to phydms/randomized_ExpCM_prefs_tree.newick
+
+2017-08-16 13:11:02,674 - INFO - Successful completion of phydms

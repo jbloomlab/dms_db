@@ -1,0 +1,89 @@
+2017-08-16 11:45:45,741 - INFO - Beginning execution of phydms in directory /Users/sarah/Google Drive/GS/lab/dms_db/data/hsp90_2016_Mishra
+
+2017-08-16 11:45:45,741 - INFO - Progress is being logged to phydms/averaged_ExpCM_prefs_gammaomega_log.log
+
+2017-08-16 11:45:45,741 - INFO - Version information:
+	Time and date: Wed Aug 16 11:45:43 2017
+	Platform: Darwin-15.6.0-x86_64-i386-64bit
+	Python version: 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016, 10:47:25)  [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)]
+	phydms version: 2.0.dev6
+	Bio version: 1.68
+	cython version: 0.25.1
+	numpy version: 1.12.1
+	scipy version: 0.19.0
+	matplotlib version: 2.0.2
+	natsort version: 5.0.1
+	sympy version: 1.0
+	six version: 1.10.0
+	pandas version: 0.20.3
+	pyvolve version: 0.8.4
+	statsmodels version: 0.8.0
+	weblogolib version: 3.5.0
+	PyPDF2 version: 1.26.0
+
+2017-08-16 11:45:45,742 - INFO - Parsed the following arguments:
+	ncats = 4
+	omegabysite_fixsyn = False
+	outprefix = phydms/averaged_ExpCM_prefs_gammaomega
+	randprefs = False
+	diffprefsbysite = False
+	fitprefsmethod = 2
+	initparams = None
+	nograd = False
+	minbrlen = 1e-06
+	profile = False
+	brlen = optimize
+	minpref = 0.002
+	model = ('ExpCM', 'prefs.csv')
+	omegabysite = False
+	opt_details = False
+	gammaomega = True
+	tree = phydms/RAxML_tree.newick
+	ncpus = 1
+	diffprefsprior = ('invquadratic', 150.0, 0.5)
+	fitphi = False
+	avgprefs = True
+	divpressure = None
+	seed = 1
+	alignment = hsp90_alignment5_ref_prep.fasta
+
+2017-08-16 11:45:45,742 - INFO - Random number seed: 1
+
+2017-08-16 11:45:45,742 - INFO - Reading alignment from hsp90_alignment5_ref_prep.fasta
+2017-08-16 11:45:46,391 - INFO - Read 33 aligned sequences from hsp90_alignment5_ref_prep.fasta, each consisting of 229 codons.
+
+2017-08-16 11:45:46,393 - INFO - The model will be an ExpCM informed by site-specific amino-acid preferences in prefs.csv
+2017-08-16 11:45:46,393 - INFO - Preferences will be averaged across sites.
+2017-08-16 11:45:48,321 - INFO - Successfully read site-specific amino-acid preferences for all 229 sites.
+
+2017-08-16 11:45:48,322 - INFO - Nucleotide frequency parameters phi will be set so stationary state matches alignment nucleotide frequencies of A = 0.280, C = 0.232, G = 0.261, T = 0.228
+
+2017-08-16 11:45:49,613 - INFO - Omega will be drawn from 4 gamma-distributed categories.
+
+2017-08-16 11:45:57,721 - INFO - Reading tree from phydms/RAxML_tree.newick
+2017-08-16 11:45:57,724 - INFO - Tree has 33 tips.
+2017-08-16 11:45:57,739 - INFO - Adjusted 1 branch lengths up to minbrlen 1e-06
+
+2017-08-16 11:45:57,739 - INFO - Initializing TreeLikelihood..
+2017-08-16 11:47:37,513 - INFO - TreeLikelihood initialized.
+2017-08-16 11:47:37,544 - INFO - Maximizing log likelihood (initially -10290.46).
+2017-08-16 11:47:37,545 - INFO - Branch lengths will be optimized individually.
+2017-08-16 13:16:37,126 - INFO - Maximization complete:
+	Step 1: optimized parameters, loglik went from -10290.46 to -8969.78 (22 iterations, 28 function evals)
+	Step 2: optimized branches, loglik went from -8969.78 to -8962.98 (105 iterations, 114 function evals)
+	Step 3: optimized parameters, loglik went from -8962.98 to -8962.73 (9 iterations, 12 function evals)
+	Step 4: optimized branches, loglik went from -8962.73 to -8962.73 (1 iterations, 4 function evals)
+2017-08-16 13:16:37,157 - INFO - Optimized log likelihood is -8962.73.
+2017-08-16 13:16:37,157 - INFO - Writing log likelihood to phydms/averaged_ExpCM_prefs_gammaomega_loglikelihood.txt
+2017-08-16 13:16:37,200 - INFO - Model parameters after optimization:
+	alpha_omega = 0.55474
+	beta = 0.010001
+	beta_omega = 6.1312
+	kappa = 2.29764
+	phiA = 0.28894
+	phiC = 0.219484
+	phiG = 0.258107
+2017-08-16 13:16:37,200 - INFO - Writing model parameters to phydms/averaged_ExpCM_prefs_gammaomega_modelparams.txt
+2017-08-16 13:16:37,202 - INFO - Writing the optimized tree to phydms/averaged_ExpCM_prefs_gammaomega_tree.newick
+
+2017-08-16 13:16:37,280 - INFO - Successful completion of phydms

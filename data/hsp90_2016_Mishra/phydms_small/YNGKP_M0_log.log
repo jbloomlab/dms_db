@@ -1,0 +1,85 @@
+2017-08-17 10:49:21,873 - INFO - Beginning execution of phydms in directory /Users/sarah/Google Drive/GS/lab/dms_db/data/hsp90_2016_Mishra
+
+2017-08-17 10:49:21,873 - INFO - Progress is being logged to phydms_small/YNGKP_M0_log.log
+
+2017-08-17 10:49:21,873 - INFO - Version information:
+	Time and date: Thu Aug 17 10:49:20 2017
+	Platform: Darwin-15.6.0-x86_64-i386-64bit
+	Python version: 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016, 10:47:25)  [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)]
+	phydms version: 2.0.dev6
+	Bio version: 1.68
+	cython version: 0.25.1
+	numpy version: 1.12.1
+	scipy version: 0.19.0
+	matplotlib version: 2.0.2
+	natsort version: 5.0.1
+	sympy version: 1.0
+	six version: 1.10.0
+	pandas version: 0.20.3
+	pyvolve version: 0.8.4
+	statsmodels version: 0.8.0
+	weblogolib version: 3.5.0
+	PyPDF2 version: 1.26.0
+
+2017-08-17 10:49:21,873 - INFO - Parsed the following arguments:
+	alignment = hsp90_alignment7_ref_prep.fasta
+	diffprefsbysite = False
+	randprefs = False
+	minbrlen = 1e-06
+	omegabysite_fixsyn = False
+	avgprefs = False
+	ncats = 4
+	minpref = 0.002
+	omegabysite = False
+	nograd = False
+	profile = False
+	tree = phydms_small/RAxML_tree.newick
+	divpressure = None
+	brlen = optimize
+	model = YNGKP_M0
+	diffprefsprior = ('invquadratic', 150.0, 0.5)
+	fitphi = False
+	opt_details = False
+	gammaomega = False
+	seed = 1
+	ncpus = 1
+	initparams = None
+	fitprefsmethod = 2
+	outprefix = phydms_small/YNGKP_M0
+
+2017-08-17 10:49:21,874 - INFO - Random number seed: 1
+
+2017-08-17 10:49:21,874 - INFO - Reading alignment from hsp90_alignment7_ref_prep.fasta
+2017-08-17 10:49:21,940 - INFO - Read 6 aligned sequences from hsp90_alignment7_ref_prep.fasta, each consisting of 229 codons.
+
+2017-08-17 10:49:21,940 - INFO - Codon substitution model with be M0 version of YNGKP (Yang, Nielsen, Goldman, & Pederson. Genetics. 155:431-449).
+2017-08-17 10:49:22,031 - INFO - Reading tree from phydms_small/RAxML_tree.newick
+2017-08-17 10:49:22,036 - INFO - Tree has 6 tips.
+2017-08-17 10:49:22,038 - INFO - Adjusted 1 branch lengths up to minbrlen 1e-06
+
+2017-08-17 10:49:22,038 - INFO - Initializing TreeLikelihood..
+2017-08-17 10:49:22,486 - INFO - TreeLikelihood initialized.
+2017-08-17 10:49:22,486 - INFO - Maximizing log likelihood (initially -2138.82).
+2017-08-17 10:49:22,486 - INFO - Branch lengths will be optimized individually.
+2017-08-17 10:49:35,277 - INFO - Maximization complete:
+	Step 1: optimized parameters, loglik went from -2138.82 to -1883.19 (9 iterations, 18 function evals)
+	Step 2: optimized branches, loglik went from -1883.19 to -1883.09 (6 iterations, 8 function evals)
+	Step 3: optimized parameters, loglik went from -1883.09 to -1883.09 (1 iterations, 4 function evals)
+2017-08-17 10:49:35,286 - INFO - Optimized log likelihood is -1883.09.
+2017-08-17 10:49:35,287 - INFO - Writing log likelihood to phydms_small/YNGKP_M0_loglikelihood.txt
+2017-08-17 10:49:35,288 - INFO - Model parameters after optimization:
+	kappa = 3.67905
+	omega = 0.0329803
+	phi0A = 0.310176
+	phi0C = 0.0873444
+	phi0G = 0.344563
+	phi1A = 0.398492
+	phi1C = 0.190507
+	phi1G = 0.114581
+	phi2A = 0.293277
+	phi2C = 0.224207
+	phi2G = 0.204664
+2017-08-17 10:49:35,288 - INFO - Writing model parameters to phydms_small/YNGKP_M0_modelparams.txt
+2017-08-17 10:49:35,289 - INFO - Writing the optimized tree to phydms_small/YNGKP_M0_tree.newick
+
+2017-08-17 10:49:35,292 - INFO - Successful completion of phydms

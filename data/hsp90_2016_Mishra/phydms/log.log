@@ -1,0 +1,116 @@
+2017-08-16 11:45:30,141 - INFO - Beginning execution of phydms_comprehensive in directory /Users/sarah/Google Drive/GS/lab/dms_db/data/hsp90_2016_Mishra
+
+2017-08-16 11:45:30,141 - INFO - Progress is being logged to phydms/log.log
+
+2017-08-16 11:45:30,142 - INFO - Version information:
+	Time and date: Wed Aug 16 11:45:26 2017
+	Platform: Darwin-15.6.0-x86_64-i386-64bit
+	Python version: 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016, 10:47:25)  [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)]
+	phydms version: 2.0.dev6
+	Bio version: 1.68
+	cython version: 0.25.1
+	numpy version: 1.12.1
+	scipy version: 0.19.0
+	matplotlib version: 2.0.2
+	natsort version: 5.0.1
+	sympy version: 1.0
+	six version: 1.10.0
+	pandas version: 0.20.3
+	pyvolve version: 0.8.4
+	statsmodels version: 0.8.0
+	weblogolib version: 3.5.0
+	PyPDF2 version: 1.26.0
+
+2017-08-16 11:45:30,142 - INFO - Parsed the following command-line arguments:
+	noavgprefs = False
+	alignment = hsp90_alignment5_ref_prep.fasta
+	gammaomega = True
+	randprefs = True
+	omegabysite = False
+	diffprefsbysite = False
+	raxml = raxml
+	tree = None
+	brlen = optimize
+	outprefix = phydms/
+	prefsfiles = ['prefs.csv']
+	ncpus = -1
+
+2017-08-16 11:45:30,142 - INFO - Checking that the alignment hsp90_alignment5_ref_prep.fasta is valid...
+2017-08-16 11:45:30,393 - INFO - Valid alignment specifying 33 sequences of length 687.
+
+2017-08-16 11:45:30,393 - INFO - Tree not specified.
+2017-08-16 11:45:30,420 - INFO - Inferring tree with RAxML using command raxml
+2017-08-16 11:45:38,017 - INFO - RAxML inferred tree is now named phydms/RAxML_tree.newick
+2017-08-16 11:45:38,018 - INFO - Starting analysis to optimize tree in phydms/RAxML_tree.newick using model YNGKP_M5. The command is: phydms hsp90_alignment5_ref_prep.fasta phydms/RAxML_tree.newick YNGKP_M5 phydms/YNGKP_M5 --brlen optimize --ncpus 1
+
+2017-08-16 11:45:38,019 - INFO - Starting analysis to optimize tree in phydms/RAxML_tree.newick using model YNGKP_M0. The command is: phydms hsp90_alignment5_ref_prep.fasta phydms/RAxML_tree.newick YNGKP_M0 phydms/YNGKP_M0 --brlen optimize --ncpus 1
+
+2017-08-16 11:45:38,019 - INFO - Starting analysis to optimize tree in phydms/RAxML_tree.newick using model averaged_ExpCM_prefs_gammaomega. The command is: phydms hsp90_alignment5_ref_prep.fasta phydms/RAxML_tree.newick ExpCM_prefs.csv phydms/averaged_ExpCM_prefs_gammaomega --brlen optimize --gammaomega --avgprefs --ncpus 1
+
+2017-08-16 11:45:38,019 - INFO - Starting analysis to optimize tree in phydms/RAxML_tree.newick using model ExpCM_prefs_gammaomega. The command is: phydms hsp90_alignment5_ref_prep.fasta phydms/RAxML_tree.newick ExpCM_prefs.csv phydms/ExpCM_prefs_gammaomega --brlen optimize --gammaomega --ncpus 1
+
+2017-08-16 11:45:38,020 - INFO - Starting analysis to optimize tree in phydms/RAxML_tree.newick using model randomized_ExpCM_prefs_gammaomega. The command is: phydms hsp90_alignment5_ref_prep.fasta phydms/RAxML_tree.newick ExpCM_prefs.csv phydms/randomized_ExpCM_prefs_gammaomega --brlen optimize --gammaomega --randprefs --ncpus 1
+
+2017-08-16 11:45:38,020 - INFO - Starting analysis to optimize tree in phydms/RAxML_tree.newick using model ExpCM_prefs. The command is: phydms hsp90_alignment5_ref_prep.fasta phydms/RAxML_tree.newick ExpCM_prefs.csv phydms/ExpCM_prefs --brlen optimize --ncpus 1
+
+2017-08-16 11:45:38,020 - INFO - Starting analysis to optimize tree in phydms/RAxML_tree.newick using model averaged_ExpCM_prefs. The command is: phydms hsp90_alignment5_ref_prep.fasta phydms/RAxML_tree.newick ExpCM_prefs.csv phydms/averaged_ExpCM_prefs --brlen optimize --avgprefs --ncpus 1
+
+2017-08-16 11:45:38,020 - INFO - Starting analysis to optimize tree in phydms/RAxML_tree.newick using model randomized_ExpCM_prefs. The command is: phydms hsp90_alignment5_ref_prep.fasta phydms/RAxML_tree.newick ExpCM_prefs.csv phydms/randomized_ExpCM_prefs --brlen optimize --randprefs --ncpus 1
+
+2017-08-16 12:04:22,642 - INFO - Analysis completed for YNGKP_M0
+2017-08-16 12:04:22,896 - INFO - Found expected output file phydms/YNGKP_M0_log.log
+2017-08-16 12:04:22,922 - INFO - Found expected output file phydms/YNGKP_M0_tree.newick
+2017-08-16 12:04:22,937 - INFO - Found expected output file phydms/YNGKP_M0_loglikelihood.txt
+2017-08-16 12:04:22,937 - INFO - Found expected output file phydms/YNGKP_M0_modelparams.txt
+2017-08-16 12:04:22,938 - INFO - Analysis successful for YNGKP_M0
+
+2017-08-16 12:20:12,494 - INFO - Analysis completed for ExpCM_prefs
+2017-08-16 12:20:12,529 - INFO - Found expected output file phydms/ExpCM_prefs_log.log
+2017-08-16 12:20:12,529 - INFO - Found expected output file phydms/ExpCM_prefs_tree.newick
+2017-08-16 12:20:12,530 - INFO - Found expected output file phydms/ExpCM_prefs_loglikelihood.txt
+2017-08-16 12:20:12,530 - INFO - Found expected output file phydms/ExpCM_prefs_modelparams.txt
+2017-08-16 12:20:12,530 - INFO - Analysis successful for ExpCM_prefs
+
+2017-08-16 12:38:02,737 - INFO - Analysis completed for YNGKP_M5
+2017-08-16 12:38:02,763 - INFO - Found expected output file phydms/YNGKP_M5_log.log
+2017-08-16 12:38:02,763 - INFO - Found expected output file phydms/YNGKP_M5_tree.newick
+2017-08-16 12:38:02,763 - INFO - Found expected output file phydms/YNGKP_M5_loglikelihood.txt
+2017-08-16 12:38:02,763 - INFO - Found expected output file phydms/YNGKP_M5_modelparams.txt
+2017-08-16 12:38:02,763 - INFO - Analysis successful for YNGKP_M5
+
+2017-08-16 12:54:13,513 - INFO - Analysis completed for averaged_ExpCM_prefs
+2017-08-16 12:54:13,531 - INFO - Found expected output file phydms/averaged_ExpCM_prefs_log.log
+2017-08-16 12:54:13,536 - INFO - Found expected output file phydms/averaged_ExpCM_prefs_tree.newick
+2017-08-16 12:54:13,536 - INFO - Found expected output file phydms/averaged_ExpCM_prefs_loglikelihood.txt
+2017-08-16 12:54:13,536 - INFO - Found expected output file phydms/averaged_ExpCM_prefs_modelparams.txt
+2017-08-16 12:54:13,536 - INFO - Analysis successful for averaged_ExpCM_prefs
+
+2017-08-16 13:09:23,067 - INFO - Analysis completed for ExpCM_prefs_gammaomega
+2017-08-16 13:09:23,094 - INFO - Found expected output file phydms/ExpCM_prefs_gammaomega_log.log
+2017-08-16 13:09:23,094 - INFO - Found expected output file phydms/ExpCM_prefs_gammaomega_tree.newick
+2017-08-16 13:09:23,094 - INFO - Found expected output file phydms/ExpCM_prefs_gammaomega_loglikelihood.txt
+2017-08-16 13:09:23,095 - INFO - Found expected output file phydms/ExpCM_prefs_gammaomega_modelparams.txt
+2017-08-16 13:09:23,095 - INFO - Analysis successful for ExpCM_prefs_gammaomega
+
+2017-08-16 13:11:04,460 - INFO - Analysis completed for randomized_ExpCM_prefs
+2017-08-16 13:11:04,466 - INFO - Found expected output file phydms/randomized_ExpCM_prefs_log.log
+2017-08-16 13:11:04,467 - INFO - Found expected output file phydms/randomized_ExpCM_prefs_tree.newick
+2017-08-16 13:11:04,467 - INFO - Found expected output file phydms/randomized_ExpCM_prefs_loglikelihood.txt
+2017-08-16 13:11:04,467 - INFO - Found expected output file phydms/randomized_ExpCM_prefs_modelparams.txt
+2017-08-16 13:11:04,467 - INFO - Analysis successful for randomized_ExpCM_prefs
+
+2017-08-16 13:16:40,368 - INFO - Analysis completed for averaged_ExpCM_prefs_gammaomega
+2017-08-16 13:16:40,381 - INFO - Found expected output file phydms/averaged_ExpCM_prefs_gammaomega_log.log
+2017-08-16 13:16:40,381 - INFO - Found expected output file phydms/averaged_ExpCM_prefs_gammaomega_tree.newick
+2017-08-16 13:16:40,381 - INFO - Found expected output file phydms/averaged_ExpCM_prefs_gammaomega_loglikelihood.txt
+2017-08-16 13:16:40,398 - INFO - Found expected output file phydms/averaged_ExpCM_prefs_gammaomega_modelparams.txt
+2017-08-16 13:16:40,398 - INFO - Analysis successful for averaged_ExpCM_prefs_gammaomega
+
+2017-08-16 13:32:48,943 - INFO - Analysis completed for randomized_ExpCM_prefs_gammaomega
+2017-08-16 13:32:48,984 - INFO - Found expected output file phydms/randomized_ExpCM_prefs_gammaomega_log.log
+2017-08-16 13:32:48,984 - INFO - Found expected output file phydms/randomized_ExpCM_prefs_gammaomega_tree.newick
+2017-08-16 13:32:48,984 - INFO - Found expected output file phydms/randomized_ExpCM_prefs_gammaomega_loglikelihood.txt
+2017-08-16 13:32:48,984 - INFO - Found expected output file phydms/randomized_ExpCM_prefs_gammaomega_modelparams.txt
+2017-08-16 13:32:48,984 - INFO - Analysis successful for randomized_ExpCM_prefs_gammaomega
+
+2017-08-16 13:32:50,160 - INFO - Successful completion of phydms_comprehensive

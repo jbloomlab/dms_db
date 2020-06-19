@@ -1,0 +1,72 @@
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+
+This is RAxML version 7.7.6 released by Alexandros Stamatakis on August 29 2013.
+
+With greatly appreciated code contributions by:
+Andre Aberer (HITS)
+Simon Berger (HITS)
+Nick Pattengale (Sandia)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+
+Alignment has 463 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.56%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 463
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxml -s hsp90_alignment5_ref_prep.fasta -n hsp90_alignment5_ref_prep -m GTRCAT -p1 -T 2 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.280 0.232 0.261 0.228 
+
+Inference[0]: Time 3.617890 CAT-based likelihood -8688.938009, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -9591.417262 tree written to file /Users/sarah/Google Drive/GS/lab/dms_db/data/hsp90_2016_Mishra/RAxML_result.hsp90_alignment5_ref_prep
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -9591.417262 .... 
+
+Final GAMMA-based Score of best tree -9589.918656
+
+Program execution info written to /Users/sarah/Google Drive/GS/lab/dms_db/data/hsp90_2016_Mishra/RAxML_info.hsp90_alignment5_ref_prep
+Best-scoring ML tree written to: /Users/sarah/Google Drive/GS/lab/dms_db/data/hsp90_2016_Mishra/RAxML_bestTree.hsp90_alignment5_ref_prep
+
+Overall execution time: 7.586033 secs or 0.002107 hours or 0.000088 days
+
